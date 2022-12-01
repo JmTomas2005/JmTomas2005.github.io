@@ -27,7 +27,7 @@ span {
 		z-index: 1;
 		border-radius: 10px;
 		padding: 0px;
-		box-sizing: 100px 20px;
+		box-sizing: 100px 50px;
 	  
 	  }
 	  
@@ -64,11 +64,11 @@ span {
 		  
 		  .otherdiv a {
 			color: black;
-			padding: 0px 0px;
+			padding: -10px 0px;
 			text-decoration: none;
 			display: block;
 			text-align: center ;
-			padding: 0px;
+			padding: px;
 		  }
 		  
 		  .others:hover .otherdiv {
@@ -84,18 +84,21 @@ img .logo {
 
 .container {
 	max-width: 1200px;
-	margin:auto;
+	margin: auto;
 	background: rgb(209, 173, 106);
 	overflow: auto;
+	
 	
 }
 
 .gallery {
-	margin: 10px;
+	margin: 20px;
 	border: 5px solid wheat;
 	float: left;
 	width: 390px;
 	border-radius: 10px;
+	margin-left: 40px;
+	margin-right: 0;
 }
 
 .gallery img {
@@ -202,14 +205,21 @@ section {
 }
 
 
-footer h1 {
+footer {
+
 	text-align: center;
 	background-color: wheat;
 	width: auto;
-	height: 40px;
+	height: 60px;
 	padding: 5px;
+	margin-top: 50%;
+	margin-left: 0px;
+	font-weight: bolder;
 }
 
+ h1 .footer {
+	font-weight: bolder;
+}
 
 
 
